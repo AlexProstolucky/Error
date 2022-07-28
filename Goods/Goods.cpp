@@ -45,6 +45,7 @@ class Passengercar : public Goods
 public:
 	int number_seats;
 private:
+        // А чим цей спосіб не влаштовує?
 	Passengercar(int p, int sp, string name, string country, string color,
 		string material, string weight, string statys, string type, int ns): Goods(p, sp, name, country, color, material, weight, statys, type)
 	{
